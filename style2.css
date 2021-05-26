@@ -1,0 +1,122 @@
+body
+{
+	background-color: #6699ff;
+	font-family: Verdana;
+	font-size: 14px;
+	color: dimgray;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Nag³ówki */
+h1
+{
+	font-size: 48px;
+}
+
+/* Linki (nieodwiedzony, odwiedzony, najechany) */
+a:link
+{
+	color: yellow;
+}
+a:visited
+{
+	color: yellow;
+}
+a:hover
+{
+	color: blue;
+}
+
+/* Divy (id=#, class=.) */
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo
+{
+	color: black;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+#menu
+{
+	background-color: #23238E;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#topbar
+{
+	background-color: #CFB53B;
+	color: #2F2F4F;
+	padding: 20px;
+	text-align: justify;
+	border-bottom: 2px dotted #444444;
+}
+#sidebar
+{
+	float: left;
+	padding: 20px;
+	width: 136px;
+	height: 100vh;
+	background-color: silver;
+	color: white;
+	border-right: 2px dotted #444444;
+	text-align: center;
+}
+#content
+{
+	float: left;
+	background-color: white;
+	padding: 20px;
+	width: 782px;
+	height: 100vh;
+	text-align: justify;
+}
+#footer
+{
+	clear: both;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+/* Klasy */
+.option
+{
+	float: left;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.9;
+	min-width: 140px;
+}
+.option:hover
+{
+	background-color: #4D4DFF;
+	cursor: pointer;
+}
+.loption
+{
+	float: left;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+	opacity: 0.9;
+	width: 120px;
+}
+.loption:hover
+{
+	background-color: #3f3f3f;
+	cursor: pointer;
+}
